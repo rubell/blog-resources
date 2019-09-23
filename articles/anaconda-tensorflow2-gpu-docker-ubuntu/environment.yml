@@ -1,0 +1,7 @@
+dependencies:
+  - pip
+  - pip:
+      - tensorflow-gpu==2.0.0-rc1
+      # not used at runtime, for development envirnoment only
+      - pylint
+      - autopep8
